@@ -26,6 +26,7 @@
 
 #define CUSTOM_LAYER_READ //if you remove this it causes issues - needs better guarding
 
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
 
 #define QUICK_TAP_TERM 0
 #ifdef TAPPING_TERM
@@ -33,7 +34,6 @@
     #define TAPPING_TERM 200
 #endif
 #define ENCODER_DIRECTION_FLIP
-
 
 #define RGBLIGHT_SLEEP
 //
